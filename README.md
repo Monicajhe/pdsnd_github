@@ -14,4 +14,6 @@ Compare the bikeshare system usage between three large cities: Chicago, New York
 - washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+- Udacity course materials Introduction to Python
+- https://stackoverflow.com/questions/43772362/how-to-print-a-specific-row-of-a-pandas-dataframe
+- https://stackoverflow.com/questions/775049/how-do-i-convert-seconds-to-hours-minutes-and-seconds

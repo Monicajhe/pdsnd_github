@@ -19,7 +19,7 @@ def get_filters():
 
     # Get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city = input('\nWould you like to see data for Chicago, New York, or Washington?\n').lower()
+        city = input('\nWhich city would you like to filter by - Chicago, New York, or Washington?\n').lower()  # use lower() to convert user input to lowercase
         if city in ['chicago', 'new york', 'washington']:
             break
         else:
@@ -142,7 +142,7 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # TO DO: display total travel time
+    # TO DO: display total travel time in seconds
     total_travel_time = df['Trip Duration'].sum()
     # Convert seconds to days, hours, minutes and seconds
     m, s = divmod(total_travel_time, 60)

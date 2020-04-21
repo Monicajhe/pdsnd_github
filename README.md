@@ -5,7 +5,7 @@
 Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Compare the bikeshare system usage between three large cities: Chicago, New York City, and Washington. Write python code to import data for the three cities and answer interesting questions about it by computing description statistics. Write a script that takes in raw input to create an interactive experience in the terminal to present the statistics.
 
 ### Files used
 Include the files used
